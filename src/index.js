@@ -1,8 +1,7 @@
 import $ from 'jquery';
-import shoppingList from './shopping-list.js';
+import shoppingList from './scripts/shopping-list';
 
 const main = function () {
-  
   shoppingList.bindEventListeners();
   shoppingList.render();
 };
